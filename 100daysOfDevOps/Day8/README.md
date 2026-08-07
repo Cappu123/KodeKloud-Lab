@@ -7,9 +7,12 @@ This task requires to install Ansible 4.7.0 using only pip3. Also we need to mak
 2. It can be executed from any folder without typing its full file path(for example: typing ```ansible``` instead of ```/user/local/bin/ansible```
 
 ## What do we mean by global directories and local directories??
-*** Local directories: ```~/.local/bin/``` or ```/home/user/.local/bin/```
 
-*** Global directories: ```/usr/bin``` or ```/usr/local/bin```
+#### Local directories: 
+```~/.local/bin/``` or ```/home/user/.local/bin/```
+
+#### Global directories: 
+```/usr/bin``` or ```/usr/local/bin```
 
 ### Steps done
 - install ansible 4.7.0 using pip3: ```pip3 install ansible===4.7.0```
