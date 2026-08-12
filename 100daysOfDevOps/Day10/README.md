@@ -22,6 +22,6 @@ This task requires to create a bash script on one of the app servers(```stapp01`
 ![alt text](Screenshoots/script.png)
 
 5. Make the script executable using the command ```chmod +x beta_archive.sh``` so that the respective user can be able to run it. and then execute it using ```./beta_archive.sh```
-
+![alt text](Screenshoots/verify.png)
 6. Finally checked for successful implementation.
 ![alt text](Screenshoots/final.png)
