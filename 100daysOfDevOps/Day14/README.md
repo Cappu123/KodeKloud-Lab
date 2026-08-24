@@ -32,3 +32,6 @@ Today's task mentions the unavailability of apache service on one of the app ser
 
 7. Now start apache, and verify service running
 ![alt text](<Screenshoots/10. Now apache is started,running on port 3000 on stapp01.png>)
+
+Task successfully completed for today!
+<img src="https://iam-weijie.github.io/wave/hand-emoji.svg" alt="Animated Waving Hand" width="30" height="30">
