@@ -22,15 +22,7 @@ The background service (`crond`) constantly wakesup every minute to check config
 ## Crontab Syntax:
 
 Tasks are defined using a 5-field time format, followed by the command;
-.---------------- minute (0 - 59)
-| .------------- hour (0 - 23)
-
-| | .---------- day of month (1 - 31)
-| | | .------- month (1 - 12)
-| | | | .---- day of week (0 - 6) (Sunday to Saturday)
-| | | | |
-
-- - - - - /path/to/command
+![alt text](Screenshoots/syntax.png)
 
 ## Now lets dive into the task implementation.
 
