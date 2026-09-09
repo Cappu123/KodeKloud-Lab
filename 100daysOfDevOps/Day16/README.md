@@ -5,7 +5,7 @@ Today's task states that a degradation in website performance is observed. thus,
 A. install nginx on lbr(if its not installed)  
 B. configure the nginx as per mentioned in the task requirement  
 C. Make sure apache is up and running in all app servers and also donot change it's port.  
-D. Then finally should be able to access the load balancer from umphost.
+D. Then finally should be able to access the load balancer from jumphost.
 ![alt text](Screenshoots/task.png)
 
 ### Steps to solve the task
@@ -32,7 +32,7 @@ D. Then finally should be able to access the load balancer from umphost.
 ***Add the load balancing upstream servers(Backend servers) using the default robin hood algorithm***
 ![alt text](<Screenshoots/5. add loadbalancig app servers on the upstream.png>)
 
-***Existing proxy block,***
+***Existing ```server``` block,***
 ![alt text](<Screenshoots/6. existing config2.png>)
 
 ***Add proxy configuration to the upstream backend servers***
