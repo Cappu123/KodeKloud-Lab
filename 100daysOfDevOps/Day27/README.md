@@ -14,9 +14,9 @@ _2. Next we can log the commit history in a single-line format per commit using_
 ![alt text](<Screenshots/1. see commits.png>)
 
 _Here we see that the latest commit (`HEAD`) is found just above the initial commit. So we can either revert it using_</br>
-`git revert HEAD --no-edit`
+`git revert HEAD --no-edit`</br>
 _Or we can use the 7 characters of the commit's SHA-1 checksum located at the left beginning of the output line._
-`git revert 9ee3cf8 --no-edit`
+`git revert 9ee3cf8 --no-edit`</br>
 _The `--no-edit` flag here tells `Git` to skip opening the text editor and reuse the existing commit message without changes_
 
 _3. Now let's ammend the commit by using the given commit text ie, revert-games_
