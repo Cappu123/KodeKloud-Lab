@@ -27,7 +27,8 @@ here, the syntax is.. `git remote add [THE REMOTE NAME] [THE DESTINATION]`
 
 **_4. Push the master branch into this remote origin(dev_ecommerce)_**
 `git push dev_ecommerce master`
-Syntax here is : `git push [destination] [branchToAdd]`
+Syntax here is :
+`git push [destination] [branchToAdd]`
 
 ![alt text](<Screenshots/1. task done.png>)
 
