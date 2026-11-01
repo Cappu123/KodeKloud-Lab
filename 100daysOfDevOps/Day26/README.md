@@ -16,7 +16,7 @@ The day's task mentions that inside the storage server, new `Git remote`s were a
 
 **_1. login to storage server and change to super user_**
 
-**_2. Navigate to the target repo and add the git remote _**
+**_2. Navigate to the target repo and add the git remote_**
 `git remote add dev_commerce /opt/xfusioncorp_commerce.git`
 here, the syntax is.. `git remote add [THE REMOTE NAME] [THE DESTINATION]`
 
@@ -27,7 +27,7 @@ here, the syntax is.. `git remote add [THE REMOTE NAME] [THE DESTINATION]`
 
 **_4. Push the master branch into this remote origin(dev_ecommerce)_**
 `git push dev_ecommerce master`
-Syntax here is : ```git push [destination] [branchToAdd]
+Syntax here is : `git push [destination] [branchToAdd]`
 
 ![alt text](<Screenshots/1. task done.png>)
 
