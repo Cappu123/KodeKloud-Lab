@@ -28,6 +28,6 @@ _This task teaches how to select a specific commit from one branch and apply it 
 
 ![alt text](<Screenshots/5. finally push changes..png>)
 
-Done
+Done!
 🫡
 ![alt text](<Screenshots/6. Done.png>)
