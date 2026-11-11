@@ -21,4 +21,4 @@ This here makes sure where exactly the branch splitted from the master, then con
 ### We used `--force-with-lease` because since `rebase` overwrites the commit history in our branch(`feature`), `--force-with--lease` makes safety checks if another team mate is working on the same branch so that their commit history doesn't get error.
 
 _4. Finally task is completed._![alt text](image.png)
-![alt text](<Screenshots/4. done.png>)
+![alt text](<Screenshots/4. done.png>)///
